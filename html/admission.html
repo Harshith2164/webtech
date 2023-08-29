@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>College Admission Form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            <h1>College Admission Form</h1>
+        </legend>
+        <form action="">
+            <label for="full-name">Full Name:</label>
+            <input type="text" id="full-name" name="full-name" required>
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <br>
+            <label for="phone">phone number:</label>
+            <input type="number" id="ph num" name="phone" required>
+            <br>
+            <label for="aadhar">Aadhar no:</label>
+            <input type="number" id="aadhar num" name="aadhar" required><br>
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="select">select</option>
+                <option value="OC">OC</option>
+                <option value="BC">BC</option>
+                <option value="SC">SC</option>
+                <option value="ST">ST</option>
+                <option value="OBC">OBC</option>
+            </select><br>
+            <label for="program">Department:</label>
+            <select id="program" name="program">
+                <option value="select">select</option>
+                <option value="computer-science">CSE</option>
+                <option value="electronic and electrical">EEE</option>
+                <option value="Electronic and communication">ECE</option>
+                <option value="Civil">Civil</option>
+                <option value="Pharmacy">pharmacy</option>
+            </select><br>
+  
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="female">prefer not to say</label><br>
+  
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="4" required></textarea><br>
+  
+            <button>submit</button>
+            <button>reset</button>
+        </form>
+            
+       
+
+    </fieldset>
+
+</body>
+</html>
