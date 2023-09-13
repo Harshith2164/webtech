@@ -1,0 +1,94 @@
+.container{
+            width: 900px;
+            height: 600px;
+            margin-left: 15%;
+            margin-top: 50px;
+            display: flex;
+        }
+        .login{
+            /* border: 1px solid rgb(150, 148, 148); */
+            border: 1px solid black;
+            margin-left: 5px;
+           /* / height: 500px; */
+            width: 420px;
+        }
+        .font{
+            width: 200px;
+            margin-top: 30px;
+            margin-left: 100px;
+            margin-right: 100px;
+        }
+        .id{
+            margin-left: 40px;
+            margin-top: 10px;
+            height: 40px;  
+        }
+        .butt{
+            width: 335px;
+            height: 40px;
+            margin-left: 40px;
+            margin-top: 20px;
+            color: white;
+            background-color: rgb(95, 175, 224);
+            border: 0px;
+            border: 0.5px solid black;
+        }
+        .new{
+            margin-left: 40px;
+            margin-top: 20px;
+            
+        }
+        .align{
+            display: flex;
+        }
+        .fb{
+             width: 20px;
+             height: 20px;
+             margin-left: 130px;
+            margin-top: 17px;
+
+        }
+        span{
+            padding: 10px;
+            margin-top: 8px;
+            color: blue;
+        }
+        .forget{
+            margin-left: 150px;
+        }
+        .sec{
+            display: flex;
+            flex-direction: column;
+        }
+        .acc{
+            height: 60px;
+            border: 1px solid black;
+            margin-left: 5px;
+            margin-top:10px;
+            width: 420px;
+        }
+        .sign{
+            margin-left: 100px;
+            margin-top: 20px;
+        }
+        i{
+            color: blue;
+        }
+        .get{
+            display: flex;
+        }
+        .app{
+            margin-left: 178px;
+        }
+        .play{
+            width: 100px;
+            margin-left: 100px;
+            height: 30px;
+
+        }
+        .appp{
+            width: 100px;
+            margin-left: 40px;
+            height: 30px;
+
+        }
